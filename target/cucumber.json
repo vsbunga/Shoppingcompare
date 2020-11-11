@@ -1,0 +1,49 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "comparing any two shirt prices in next",
+        "description": "",
+        "id": "compare-next-mens-shirt-prices;comparing-any-two-shirt-prices-in-next",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "launch next website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Search for mens shirt",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "print first two shirt prices",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "compare next mens shirt prices",
+    "description": "",
+    "id": "compare-next-mens-shirt-prices",
+    "keyword": "Feature",
+    "uri": "Shoppingcompare.feature"
+  }
+]
