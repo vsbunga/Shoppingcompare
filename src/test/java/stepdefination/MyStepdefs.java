@@ -25,7 +25,7 @@ public class MyStepdefs {
     @When("^Search for mens shirt$")
     public void searchForMensShirt() {
 
-    driver.findElement(By.id("WebDriver ")).sendKeys("Mens Shirts");
+    //driver.findElement(By.id("WebDriver ")).sendKeys("Mens Shirts");
     driver.findElement(By.xpath("//form[@id=\"newsearch\"]/input[4]")).click();
 
     }

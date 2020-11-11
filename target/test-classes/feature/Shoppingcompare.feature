@@ -5,4 +5,3 @@ Feature: compare next mens shirt prices
     Given launch next website
     When Search for mens shirt
     Then print first two shirt prices
-    
